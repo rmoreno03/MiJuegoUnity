@@ -23,6 +23,10 @@ public class VidaEnemigo : MonoBehaviour
         if(vidaActual <= 0)
         {
             Destroy(gameObject);
+
+            GameManager.instance.muertes++;
+
+            UI.instance.textoMuertes.text = "Enemigos Muertos: "+ GameManager.instance.muertes;
         }
     }
 }
