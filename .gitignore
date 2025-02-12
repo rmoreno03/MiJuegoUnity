@@ -1,0 +1,21 @@
+# Ignorar carpetas de Unity innecesarias
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+.vs/
+.vscode/
+UserSettings/
+*.csproj
+*.sln
+*.unityproj
+*.pidb
+*.suo
+*.user
+*.userprefs
+*.booproj
+*.svd
+*.pdb
